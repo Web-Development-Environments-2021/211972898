@@ -1,0 +1,19 @@
+#menu
+{
+	position: fixed;
+}
+
+#menu li {
+	display:block;
+	width:120px;
+	float:left;
+	margin-left:2px;
+	border:1px solid #79cfff;
+}
+a {
+	color: #79cfe9;
+}
+
+body {
+  background: -webkit-gradient(linear, left top, left bottom, from(#171728), to(#456271)) fixed;
+}

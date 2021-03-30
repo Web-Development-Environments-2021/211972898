@@ -1,6 +1,10 @@
 <!DOCTYPE html>
 <html>
 <head>
+<link rel="stylesheet" href="emojionearea.min.css">
+<link rel="stylesheet" type="text/css" href="style.css" />
+<script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+<script src="emojionearea.min.js"></script>
 </head>
 <body>
 <div id="menu">
@@ -12,19 +16,20 @@
 <li><a href="#spa">Q&A</a></li>
 <li><a href="#contact">Contact Me</a></li>
 </div>
-		  
+
 <section id="about" class="section">
 <br/>
-<h1 style="background-color:powderblue;"> About Me</h1>
-<h4 style="background-color:powderblue;">My name is Sara Tzatzashvili,I was born in Georgia at year 1954.
-At year 1970 I immigrated to Israel and started my life here.</h4>
-<h4 style="background-color:powderblue;">I love to be with my family and travel around the world.</h4>
+<h1 style="color:powderblue;"> About Me</h1>
+<h4 style="color:powderblue;">My name is Sara Tzatzashvili,I was born in Georgia at year 1954.<br/>
+At year 1970 I immigrated to Israel and started my life here.
+Until my retirement, i worked in the post office. <br/>
+I love to be with my family and travel around the world with my friends.</h4>
 <br/>
 </section>
 
 <section id="photos" class="section">
 <br/>
-<h1 style="background-color:powderblue;">my photos</h1>
+<h1 style="color:#69cfe9; text-align:center;">My Photos</h1>
 <img src="img1.jpg" alt="Photo of mine" style="width:400px;height:400px;">
 <img src="img2.jpg" alt="Photo of me and my family" style="width:400px;height:400px;">
 <img src="img3.jpg" alt="Photo of mine 2" style="width:400px;height:400px;">
@@ -32,12 +37,13 @@ At year 1970 I immigrated to Israel and started my life here.</h4>
 
 <section id="playlist" class="section">
 <br/>
-<h1 style="background-color:powderblue;">my favorite song</h1>
+<h1 style="color:powderblue;">My Favorite Songs</h1>
 <br/>
-<iframe width="1200" height="600" src="https://www.youtube.com/embed/playlist?list=PL-_jOW8kIWnuZSU7-GAx4iaEBtZ7FneQr" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="1200" height="600" src="https://www.youtube.com/embed/playlist?list=PLLJwdeYuOb2d_dIUCJtt80Nh6DP_vTItv" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 <section id="like" class="section">
 <br/>
-<h3 style="background-color:powderblue;">Give me a like :-)</h3>
+<h3 style="color:powderblue;">Give me a like :-)</h3>
 <div style="text-align: left;">
 <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fplugins%2F&width=20&layout=box_count&action=like&size=large&share=false&height=65&appId" width="100" height="100" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share"></iframe><br/>
 </div>
@@ -45,55 +51,132 @@ At year 1970 I immigrated to Israel and started my life here.</h4>
 
 <section id="qrcoder" class="section">
 <br/>
-<h2 style="background-color:powderblue;">scan my QR Code!</h2>
+<h2 style="color:powderblue;">My QR Code!</h2>
 <img src="download.png" alt="My QR code" style="width:200px;height:200px;">
 <br/>
-
 </section>
 
 <section id="spa" class="section">
 <br/>
+	<h2> Questions & Answers </h2>
+	<table class="answers" border=1 align=left cellpadding="0" cellspacing="0" bordercolor="white" width="60%">
+		<tr>
+			<td width="20%">
+				<h3>
+					Web 1.0
+				</h3>
+			</td>
+			<td width="20%">
+				<h3>
+					Web 2.0
+				</h3>
+			</td>
+			<td width="20%">
+				<h3>
+					Web 3.0
+				</h3>
+			</td>
+		</tr>
+		<tr>
+			<td width="20%">
+				<h4>
+					the web is static and read-only.
+				</h4>
+			</td>
+			<td width="20%">
+				<h4>
+					widely read-write web.
+				</h4>
+			</td>
+				<td width="20%">
+				<h4>
+					read-write intelligent web.
+				</h4>
+		</tr>
+		<tr>
+			<td width="20%">
+				<h4>
+					the search engines retrieve macro contents. The search is fast but many times results aren't relevant.
+				</h4>
+			</td>
+			<td width="20%">
+				<h4>
+					the search engines retrieve tags with micro contents. these tags are made by people in a manual process and enables to retrieve more relevant contents. 
+				</h4>
+			</td>
+			<td width="20%">
+				<h4>
+				the search engines retrieve micro contents texts. these texts are created by automatic process.
+				</h4>
+			</td>
+		</tr>
+		<tr>
+			<td width="20%">
+				<h4>
+					Some companies publish content for people.
+				</h4>
+			</td>
+			<td width="20%">
+				<h4>
+					Companies build platforms that let people publish content for other people.
+				</h4>
+			</td>
+			<td width="20%">
+				<h4>
+					People build applications which enables people to interact with each other, companies build platforms that let people publish the applications. 
+				</h4>
+			</td>
+		</tr>
+	</table>
+<br>
+<h3>
+	<u>
+	Use Case - searching for the query: "call of duty"
+	</u>
+	<li>
+		Web 1.0 - in order to find relevant data about call of duty, i had to type in exact URL of a site.
+	</li>
+	<li>
+		Web 2.0 - in order to find relevant data about call of duty, i had to search it as a query to a search engine
+		and then get results from the query as web tags.
+	</li>
+	<li>
+		Web 3.0 - in order to find relevant data about call of duty,i had to search it as a query to a search engine
+		and then get results that contain the query words plus other related words such as tags.
+	</li>
+</h3>
 <br/>
 <br/>
 <br/>
 <br/>
 <br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-ans
 <br/>
 <br/>
 <br/>
 </section>
 
 <section id="contact" class="section">
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-contact me
-<br/>
-<br/>
+<h2 style="color:powderblue;">Contact Me</h2>
+<h3>
+	<form action="mailto:ronmag@post.bgu.ac.il" method="post" enctype="text/plain">
+		Name:<br>
+		<input type="text" name="name"><br>
+		E-mail:<br>
+		<input type="text" name="mail"><br>
+		Comment:<br>
+		<textarea id="comment"></textarea>
+		<br/>
+		<br/>
+		<script>
+			$(document).ready(function() {
+			  $("#comment").emojioneArea({
+				pickerPosition: "top"});
+			})
+		</script>
+		<input type="submit" value="Send">
+		<input type="reset" value="Reset">
+		</form>
+</h3>
 <br/>
 </section>
 
